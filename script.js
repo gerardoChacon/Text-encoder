@@ -34,7 +34,7 @@ function encrypt() {
     } else{
         displayType('encrypted-text', 'inline-block');
         spaceBetween('.text-container')
-        displayType('copy', 'inline-block');
+        displayType('copy', 'block');
         displayType('title','none');
         displayType('text', 'none');
         displayType('toy', 'none');

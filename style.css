@@ -9,10 +9,11 @@ html{
 
 #logo{
     margin: 1rem;
-    margin-left: -40px;
+    margin-left: -20px;
 }
 
 textarea{
+    resize: none;
     margin: 1rem 0 1rem 1rem;
     width: 95vw;
     height: 50vh;
@@ -60,7 +61,7 @@ textarea::placeholder{
 }
 
 .button{
-    width: 343px;
+    min-width: 343px;
     height: 67px;
     padding: 24px;
     border-radius: 24px;
@@ -135,20 +136,20 @@ aside{
 }
 
 #copy{
-    width: 279px;
+    min-width: 279px;
     height: 67px;
     background-color: var(--neutral-white);
     border: 1px solid var(--dark-blue-300);
     color: var(--dark-blue-300);
-    margin: 16px;
+    margin: 1rem auto;
     display: none;
 }
 
 @media (min-width: 767px){
 
-    #logo{
-        margin-left: -20px;
-    }
+  
+
+
 
     .encryption-buttons{
         max-width: 768px;
@@ -194,7 +195,7 @@ aside{
     }
 
     main{
-        margin-left: 15rem;
+        margin-left: 10rem;
         width: 70%;
         grid-row-start: 2 ;
         grid-row-end: 3;
@@ -207,28 +208,36 @@ aside{
     textarea{
         width: 35vw;
         height: 67vh;
+        margin-left: -3.5rem ;
+    }
+
+    .alert{
+        margin-left: -3.5rem ; 
     }
 
     .encryption-buttons{
         width: 600px;
         margin:0;
     }
+    #decrypt{
+        background-color: #D8DFE8;
+    }
 
     aside{
         min-width: 100%;
         display: flex;
         align-items: center;
+        margin-inline: auto;
         grid-row-start: 1 ;
-        grid-row-end: 3;
-        margin-top: 40px;   
+        grid-row-end: 3; 
     }
 
     .text-container{
        width: 400px;
-       height: 844px;
+       min-height: 900px;
        display: flex;
        flex-direction: column;
-       justify-content: center; 
+       justify-content: center;
        
     }
 
