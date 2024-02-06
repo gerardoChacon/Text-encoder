@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+
+:root{
+    --neutral-white: #fff;
+    
+    --light-blue-100: #f3f5fc;
+    --light-blue-200: #eff1fa;
+    --light-blue-300: #e9ecf8;
+    --light-blue-400: #aab2d5;
+    --light-blue-500: #757fb2;
+    
+    --dark-blue-100: #609ed4;
+    --dark-blue-200: #356ea9;
+    --dark-blue-300: #0a3871;
+    --dark-blue-400: #072b61;
+    --dark-blue-500: #052051;
+    
+    --dark-gray-100: #ced4da;
+    --dark-gray-200: #adb5bd;
+    --dark-gray-300: #868e96;
+    --dark-gray-400: #495057;
+    --dark-gray-500: #342a40;
+
+    --principal-font: 'Inter', 'sans-serif';
+}
