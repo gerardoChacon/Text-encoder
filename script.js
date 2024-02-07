@@ -32,7 +32,7 @@ function encrypt() {
     if(inputText === ''){
         return;
     } else{
-        displayType('encrypted-text', 'inline-block');
+        displayType('encrypted-text', 'block');
         spaceBetween('.text-container')
         displayType('copy', 'block');
         displayType('title','none');
@@ -57,9 +57,9 @@ function decrypt() {
       if(inputText === ''){
         return;
     } else{
-        displayType('encrypted-text', 'inline-block');
+        displayType('encrypted-text', 'block');
         spaceBetween('.text-container')
-        displayType('copy', 'inline-block');
+        displayType('copy', 'block');
         displayType('title','none');
         displayType('text', 'none');
         displayType('toy', 'none');
